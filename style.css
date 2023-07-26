@@ -1,0 +1,19 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #90ee90;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.jumbotron img:hover {
+  box-shadow: 0 4px 8px 0 green;
+}
+#gallery {
+  background-color: #90ee90;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 black;
+}
