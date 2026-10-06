@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wardiyansyah.github.io/sitemap.xml
