@@ -40,6 +40,11 @@ section {
   background: #2dd4bf;
 }
 
+html.light footer {
+  background-color: #e2e8f0 !important;
+  border-top-color: rgba(15, 23, 42, 0.1);
+}
+
 html.light ::-webkit-scrollbar-track {
   background: #e2e8f0;
 }
@@ -52,6 +57,26 @@ html.light .text-ink-950 {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 .glow-card {

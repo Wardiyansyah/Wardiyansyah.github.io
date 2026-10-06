@@ -7,11 +7,11 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: 'Backend / Database',
-    items: ['MySQL', 'MariaDB', 'REST API', 'PHP backend development'],
+    items: ['MySQL', 'PostgreSQL', 'Supabase', 'REST API', 'PHP backend development'],
   },
   {
     category: 'Framework / Tools',
-    items: ['Scriptcase 9', 'Flutter', 'Node.js', 'Express', 'Git', 'GitHub'],
+    items: ['Scriptcase 9', 'Flutter', 'Node.js', 'React', 'Next.js', 'Streamlit', 'Git', 'GitHub'],
   },
   {
     category: 'Server / Infrastructure',
@@ -19,10 +19,10 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: 'Hardware / IoT',
-    items: ['ESP32', 'HC-SR04', 'L298N', 'LM2596', 'PlatformIO', 'Embedded (Arduino-style)'],
+    items: ['Arduino UNO', 'ESP32', 'HC-SR04', 'L298N', 'LM2596', 'PlatformIO', 'Embedded (Arduino-style)'],
   },
   {
     category: 'Development Environment',
-    items: ['VS Code', 'Neovim', 'Navicat', 'Linux dev environments', 'Microsoft Office'],
+    items: ['VS Code', 'Neovim', 'Arduino IDE', 'Navicat', 'Linux dev environments', 'Windows dev environments'],
   },
 ]

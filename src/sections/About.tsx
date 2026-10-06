@@ -9,6 +9,17 @@ export default function About() {
       <SectionHeading kicker="Who I am" title="About Me" />
       <div className="grid gap-8 md:grid-cols-3">
         <div className="space-y-4 text-slate-400 md:col-span-2">
+          <div className="mb-6 flex items-center gap-5">
+            <img
+              src="/WARDIYANSYAH.JPG"
+              alt="Foto Wardiyansyah"
+              className="h-32 w-32 rounded-full border-2 border-teal-400/40 object-cover object-top shadow-lg shadow-teal-500/10 sm:h-40 sm:w-40"
+            />
+            <div>
+              <p className="text-xl font-semibold text-slate-100">Wardiyansyah</p>
+              <p className="font-mono text-xs text-teal-300/80">{t(profile.headline)}</p>
+            </div>
+          </div>
           <p>{t(profile.bio)}</p>
           <p>
             {t(

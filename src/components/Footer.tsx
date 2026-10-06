@@ -8,6 +8,7 @@ const quickLinks = [
   { href: '#experience', label: 'Experience' },
   { href: '#projects', label: 'Projects' },
   { href: '#journey', label: 'Journey' },
+  { href: '#publications', label: 'Publications' },
   { href: '#contact', label: 'Contact' },
 ]
 
@@ -54,7 +55,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-white/5 py-5 text-center text-sm text-slate-500">
-        <p>{t('© 2026 Wardiyansyah — Software Engineering Student')}</p>
+        <p>{t('©2026 Wardiyansyah')}</p>
       </div>
     </footer>
   )

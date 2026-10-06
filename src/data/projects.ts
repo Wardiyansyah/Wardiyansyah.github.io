@@ -55,7 +55,7 @@ export const projects: Project[] = [
     technologies: ['Arduino', 'Infrared sensors'],
     role: 'Team Lead',
     learned: 'Coordinating a small team and integrating sensors with motor control logic.',
-    status: '2024 · SMK period',
+    status: '2024 · High School period',
   },
   {
     title: 'Automatic Lamp Prototype',
@@ -65,7 +65,7 @@ export const projects: Project[] = [
     technologies: ['Arduino', 'Light sensor'],
     role: 'Team Lead',
     learned: 'Reading analog light sensor input and triggering actuators automatically.',
-    status: '2024 · SMK period',
+    status: '2024 · High School period',
   },
   {
     title: 'Smart Donation Box',

@@ -19,12 +19,12 @@ export default function Contact() {
           </li>
           <li>
             <a className="text-slate-300 hover:text-teal-300" href={profile.github} target="_blank" rel="noreferrer">
-              GitHub → {profile.github}
+              GitHub → {profile.name}
             </a>
           </li>
           <li>
             <a className="text-slate-300 hover:text-teal-300" href={profile.linkedin} target="_blank" rel="noreferrer">
-              LinkedIn → {profile.linkedin}
+              LinkedIn → {profile.name} .
             </a>
           </li>
         </ul>

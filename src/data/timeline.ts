@@ -30,20 +30,20 @@ export const timeline: TimelineItem[] = [
   },
   {
     period: '2024',
-    title: 'Developed the HMSE website',
-    description: 'Managed and developed the website for Himpunan Mahasiswa Software Engineering.',
+    title: 'Software Engineering & HMSE technical activities',
+    description:
+      'Started Software Engineering at Universitas Insan Pembangunan Indonesia and became active in HMSE technical activities.',
   },
   {
-    period: '2024+',
+    period: '2024',
     title: 'HMSE / Litbang activities',
     description:
       'Creating learning curricula, providing training materials, and developing the organization website; later leading the Litbang division.',
   },
   {
-    period: '2025',
-    title: 'Software Engineering & HMSE technical activities',
-    description:
-      'Started Software Engineering at Universitas Insan Pembangunan Indonesia and became active in HMSE technical activities.',
+    period: '2024',
+    title: 'Developed the HMSE website',
+    description: 'Managed and developed the website for Himpunan Mahasiswa Software Engineering.',
   },
   {
     period: '2026',

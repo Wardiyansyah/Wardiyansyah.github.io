@@ -8,6 +8,7 @@ const links = [
   { href: '#experience', label: 'Experience' },
   { href: '#projects', label: 'Projects' },
   { href: '#journey', label: 'Journey' },
+  { href: '#publications', label: 'Publications' },
   { href: '#contact', label: 'Contact' },
 ]
 
@@ -74,21 +75,23 @@ export default function Navbar() {
         </ul>
       </nav>
 
-      {open && (
-        <ul className="border-t border-white/5 bg-ink-950 px-5 py-4 md:hidden">
-          {links.map((l) => (
-            <li key={l.href}>
-              <a
-                className="block py-2 text-sm text-slate-300"
-                href={l.href}
-                onClick={() => setOpen(false)}
-              >
-                {t(l.label)}
-              </a>
-            </li>
-          ))}
-        </ul>
-      )}
+      <ul
+        className={`border-t border-white/5 bg-ink-950 px-5 transition-all duration-300 ease-out md:hidden ${
+          open ? 'max-h-96 py-4 opacity-100' : 'max-h-0 overflow-hidden py-0 opacity-0'
+        }`}
+      >
+        {links.map((l) => (
+          <li key={l.href}>
+            <a
+              className="block py-2 text-sm text-slate-300"
+              href={l.href}
+              onClick={() => setOpen(false)}
+            >
+              {t(l.label)}
+            </a>
+          </li>
+        ))}
+      </ul>
     </header>
   )
 }

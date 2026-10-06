@@ -1,6 +1,10 @@
 export const id: Record<string, string> = {
   Footer: 'Footer',
   Pages: 'Halaman',
+  Publications: 'Publikasi',
+  'View article': 'Lihat artikel',
+  Research: 'Riset',
+  'Journals and papers I have contributed to.': 'Jurnal dan paper yang saya kontribusikan.',
 
   // Nav
   Home: 'Beranda',
@@ -59,6 +63,7 @@ export const id: Record<string, string> = {
   'PHP backend development': 'Pengembangan backend PHP',
   'Embedded (Arduino-style)': 'Embedded (gaya Arduino)',
   'Linux dev environments': 'Lingkungan pengembangan Linux',
+  'Windows dev environments': 'Lingkungan pengembangan Windows',
 
   // Projects section
   'Selected work': 'Karya terpilih',
@@ -84,7 +89,7 @@ export const id: Record<string, string> = {
   'Workshop completed': 'Workshop selesai',
   'Ongoing learning': 'Terus dipelajari',
   'Academic case': 'Studi kasus akademik',
-  '2024 · SMK period': '2024 · Masa SMK',
+  '2024 · High School period': '2024 · Masa SMK',
 
   // Project content
   'A mobile-oriented sales visit management system involving authentication, customer visits, GPS validation, and visit tracking.':
@@ -190,8 +195,8 @@ export const id: Record<string, string> = {
   'Kadiv Litbang': 'Kadiv Litbang',
   'Started in HMSE Litbang creating learning curricula, preparing training materials, and developing the organization website. Now lead the division: technical training, curriculum planning, workshops, project development, technical events, recruitment/interviews, and academic/technology activities.':
     'Bermula di Litbang HMSE menyusun kurikulum pembelajaran, menyiapkan materi pelatihan, dan mengembangkan website organisasi. Kini memimpin divisi: pelatihan teknis, perencanaan kurikulum, workshop, pengembangan proyek, acara teknis, rekrutmen/wawancara, dan kegiatan akademik/teknologi.',
-  'Designed weekly programming training for HMSE members, including "HMSE 101: Your First Step into Programming" (Python basics) and JavaScript fundamentals covering variables, operators, strings, and the DOM.':
-    'Merancang pelatihan pemrograman mingguan untuk anggota HMSE, termasuk "HMSE 101: Your First Step into Programming" (dasar Python) dan dasar JavaScript: variabel, operator, manipulasi string, dan DOM.',
+  'Designed weekly programming training for HMSE members.':
+    'Merancang pelatihan pemrograman mingguan untuk anggota HMSE.',
   Teaching: 'Mengajar',
   'Curriculum planning': 'Perencanaan kurikulum',
 
@@ -226,7 +231,7 @@ export const id: Record<string, string> = {
   'Started SMKS Binong Permai — TKJ': 'Masuk SMKS Binong Permai — TKJ',
   'Began Teknik Komputer dan Jaringan, building a foundation in computer networks, IT infrastructure, hardware/software, and networking concepts.':
     'Memulai Teknik Komputer dan Jaringan, membangun dasar jaringan komputer, infrastruktur IT, hardware/software, dan konsep jaringan.',
-  'Oct–Dec 2022': 'Okt–Des 2022',
+  '2022': '2022',
   'IT Support Internship': 'Magang IT Support',
   'Early hands-on IT experience at PT. Putra Lebak Banten Net: fiber optic maintenance and network installation.':
     'Pengalaman IT langsung pertama di PT. Putra Lebak Banten Net: perawatan fiber optik dan pemasangan jaringan.',

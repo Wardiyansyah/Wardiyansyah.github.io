@@ -4,7 +4,7 @@ export const experiences: Experience[] = [
   {
     title: 'IT Support (Internship)',
     organization: 'PT. Putra Lebak Banten Net',
-    period: 'October 2022 – December 2022',
+    period: '2022',
     description: [
       'Fiber optic maintenance and network installation — an early hands-on IT experience before the Software Engineering journey.',
     ],
@@ -28,7 +28,7 @@ export const experiences: Experience[] = [
     period: '2025 — Present',
     description: [
       'Started in HMSE Litbang creating learning curricula, preparing training materials, and developing the organization website. Now lead the division: technical training, curriculum planning, workshops, project development, technical events, recruitment/interviews, and academic/technology activities.',
-      'Designed weekly programming training for HMSE members, including "HMSE 101: Your First Step into Programming" (Python basics) and JavaScript fundamentals covering variables, operators, strings, and the DOM.',
+      'Designed weekly programming training for HMSE members.',
     ],
     technologies: ['Teaching', 'Curriculum planning', 'Python', 'JavaScript'],
   },

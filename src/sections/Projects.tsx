@@ -54,11 +54,10 @@ export default function Projects() {
               setFilter(c)
               setIndex(0)
             }}
-            className={`rounded-full border px-4 py-1.5 font-mono text-xs transition ${
-              filter === c
+            className={`rounded-full border px-4 py-1.5 font-mono text-xs transition ${filter === c
                 ? 'border-teal-400/60 bg-teal-400/10 text-teal-300'
                 : 'border-white/10 text-slate-400 hover:border-teal-400/30 hover:text-teal-300'
-            }`}
+              }`}
           >
             {t(c)}
           </button>
@@ -87,7 +86,7 @@ export default function Projects() {
           style={{ transform: `translateX(-${index * (100 / perView)}%)` }}
         >
           {visible.map((p) => (
-            <div key={p.title} className="w-full shrink-0 px-2.5 sm:w-1/2 lg:w-1/3">
+            <div key={p.title} className="w-full shrink-0 px-2.5 mt-4 sm:w-1/2 lg:w-1/3">
               <ProjectCard project={p} />
             </div>
           ))}
@@ -111,9 +110,8 @@ export default function Projects() {
                 key={i}
                 aria-label={`Go to slide ${i + 1}`}
                 onClick={() => setIndex(i)}
-                className={`h-1.5 rounded-full transition-all ${
-                  i === index ? 'w-6 bg-teal-400' : 'w-1.5 bg-slate-600'
-                }`}
+                className={`h-1.5 rounded-full transition-all ${i === index ? 'w-6 bg-teal-400' : 'w-1.5 bg-slate-600'
+                  }`}
               />
             ))}
           </div>
