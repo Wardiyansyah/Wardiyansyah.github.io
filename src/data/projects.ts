@@ -39,7 +39,7 @@ export const projects: Project[] = [
   },
   {
     title: 'HMSE Website',
-    category: 'HMSE',
+    category: 'Web',
     description:
       'Managed and developed the website for the Himpunan Mahasiswa Software Engineering (HMSE).',
     technologies: ['HTML', 'CSS', 'JavaScript'],
@@ -69,7 +69,7 @@ export const projects: Project[] = [
   },
   {
     title: 'Smart Donation Box',
-    category: 'HMSE',
+    category: 'IoT',
     description:
       'An ESP32-based donation box concept built during a two-day HMSE technical workshop, combining Tinkercad simulation and hands-on implementation.',
     technologies: ['ESP32', 'Tinkercad', 'Embedded programming'],
@@ -142,6 +142,6 @@ export const projectCategories = [
   'Mobile',
   'IoT',
   'Academic',
-  'HMSE',
+  // 'HMSE',
   'Server',
 ] as const

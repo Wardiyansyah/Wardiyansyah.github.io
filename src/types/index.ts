@@ -20,7 +20,7 @@ export type ProjectCategory =
   | 'Mobile'
   | 'IoT'
   | 'Academic'
-  | 'HMSE'
+  // | 'HMSE'
   | 'Server'
 
 export interface Project {
