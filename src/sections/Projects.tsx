@@ -84,7 +84,7 @@ export default function Projects() {
         <div
           ref={trackRef}
           className="flex transition-transform duration-500 ease-out"
-          style={{ transform: `translateX(-${index * (100 / visible.length)}%)` }}
+          style={{ transform: `translateX(-${index * (100 / perView)}%)` }}
         >
           {visible.map((p) => (
             <div key={p.title} className="w-full shrink-0 px-2.5 sm:w-1/2 lg:w-1/3">
