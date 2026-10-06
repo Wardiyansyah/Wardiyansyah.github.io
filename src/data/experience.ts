@@ -4,7 +4,7 @@ export const experiences: Experience[] = [
   {
     title: 'IT Support (Internship)',
     organization: 'PT. Putra Lebak Banten Net',
-    period: '2022',
+    period: 'October 2022 – December 2022',
     description: [
       'Fiber optic maintenance and network installation — an early hands-on IT experience before the Software Engineering journey.',
     ],
