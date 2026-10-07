@@ -1,4 +1,5 @@
 import SectionHeading from '../components/SectionHeading'
+import SkillIcon from '../components/SkillIcon'
 import { skillGroups } from '../data/skills'
 import { useT } from '../settings'
 
@@ -15,10 +16,10 @@ export default function Skills() {
         {skillGroups.map((g) => (
           <div key={g.category} className="rounded-xl border border-white/5 bg-ink-900/60 p-5 glow-card">
             <h3 className="font-mono text-xs uppercase tracking-widest text-teal-300">{t(g.category)}</h3>
-            <ul className="mt-4 space-y-1.5">
+            <ul className="mt-4 space-y-2">
               {g.items.map((item) => (
-                <li key={item} className="text-sm text-slate-300">
-                  <span className="font-mono text-teal-300/50">› </span>
+                <li key={item} className="flex items-center gap-2.5 text-sm text-slate-300">
+                  <SkillIcon name={item} />
                   {t(item)}
                 </li>
               ))}
