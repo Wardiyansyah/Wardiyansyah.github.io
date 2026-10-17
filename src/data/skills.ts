@@ -19,10 +19,10 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     category: 'Hardware / IoT',
-    items: ['Arduino UNO', 'ESP32', 'HC-SR04', 'L298N', 'LM2596', 'PlatformIO', 'Embedded (Arduino-style)'],
+    items: ['Arduino UNO', 'ESP32', 'HC-SR04', 'L298N', 'LM2596', 'Embedded (Arduino-style)'],
   },
   {
     category: 'Development Environment',
-    items: ['VS Code', 'Neovim', 'Arduino IDE', 'Navicat', 'Linux dev environments', 'Windows dev environments'],
+    items: ['VS Code', 'Neovim', 'Arduino IDE', 'PlatformIO', 'Navicat', 'Linux dev environments', 'Windows dev environments'],
   },
 ]
