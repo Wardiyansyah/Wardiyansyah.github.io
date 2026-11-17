@@ -13,7 +13,7 @@ export const experiences: Experience[] = [
   {
     title: 'IT Staff',
     organization: 'PT. Buntara Megah Inti',
-    period: '2026 — Present',
+    period: 'April 2026 — Present',
     description: [
       'Developing and maintaining company software systems using Scriptcase, PHP, MySQL, and related technologies, including internal business applications, dashboards, reports, and financial reporting systems.',
       'Developing and maintaining a mobile Sales Force Management system using Flutter and Scriptcase, including token-based APIs, GPS-validated visit check-ins, visit tracking, and MySQL-backed reporting.',
@@ -25,7 +25,7 @@ export const experiences: Experience[] = [
   {
     title: 'Kadiv Litbang (Head of Research & Development Division)',
     organization: 'HMSE',
-    period: '2025 — Present',
+    period: '2025 — 2026',
     description: [
       'Started in HMSE Litbang creating learning curricula, preparing training materials, and developing the organization website. Now lead the division: technical training, curriculum planning, workshops, project development, technical events, recruitment/interviews, and academic/technology activities.',
       'Designed weekly programming training for HMSE members.',
