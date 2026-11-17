@@ -176,8 +176,8 @@ export const id: Record<string, string> = {
   'Fiber optics': 'Fiber optik',
   'IT infrastructure': 'Infrastruktur IT',
   'IT Staff': 'Staf IT',
-  '2026 — Present': '2026 — Sekarang',
-  '2025 — Present': '2025 — Sekarang',
+  'April 2026 — Present': 'April 2026 — Sekarang',
+  '2025 — 2026': '2025 — 2026',
   'Developing and maintaining company software systems using Scriptcase, PHP, MySQL, and related technologies, including internal business applications, dashboards, reports, and financial reporting systems.':
     'Mengembangkan dan memelihara sistem perangkat lunak perusahaan dengan Scriptcase, PHP, MySQL, dan teknologi terkait, termasuk aplikasi bisnis internal, dashboard, laporan, dan sistem pelaporan keuangan.',
   'Developing and maintaining a mobile Sales Force Management system using Flutter and Scriptcase, including token-based APIs, GPS-validated visit check-ins, visit tracking, and MySQL-backed reporting.':
